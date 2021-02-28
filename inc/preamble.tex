@@ -18,7 +18,9 @@
 \setmainfont{Times New Roman} % Нормоконтроллеры хотят именно его
 \newfontfamily\cyrillicfont{Times New Roman}
 %\setsansfont{Liberation Sans} % Тут я его не использую, но если пригодится
-\setmonofont{FreeMono} % Моноширинный шрифт для оформления кода
+%\usepackage{courier}
+\newfontfamily{\cyrillicfonttt}{Courier New}
+\setmonofont{Courier} % Моноширинный шрифт для оформления кода
 
 % Русский язык
 \usepackage{polyglossia}
@@ -94,19 +96,19 @@
 \setcounter{tocdepth}{3}                            % Глубина оглавления, до subsubsection
 
 % Нумерация страниц справа сверху
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[R]{\textrm{\thepage}}
-\fancyheadoffset{0mm}
-\fancyfootoffset{0mm}
-\setlength{\headheight}{17pt}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
-\fancypagestyle{plain}{ 
-    \fancyhf{}
-    \rhead{\thepage}
-}
+%\usepackage{fancyhdr}
+%\pagestyle{fancy}
+%\fancyhf{}
+%\fancyhead[R]{\textrm{\thepage}}
+%\fancyheadoffset{0mm}
+%\fancyfootoffset{0mm}
+%\setlength{\headheight}{17pt}
+%\renewcommand{\headrulewidth}{0pt}
+%\renewcommand{\footrulewidth}{0pt}
+%\fancypagestyle{plain}{ 
+%    \fancyhf{}
+%    \rhead{\thepage}
+%}
 
 % Формат подрисуночных надписей
 \RequirePackage{caption}

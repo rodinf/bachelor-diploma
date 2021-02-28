@@ -1,0 +1,48 @@
+\BOOKMARK [1][-]{section*.1}{Введение}{}% 1
+\BOOKMARK [1][-]{section.1}{Постановка задачи}{}% 2
+\BOOKMARK [1][-]{section.2}{Обзор современных методов и технологий серверной виртуализации}{}% 3
+\BOOKMARK [1][-]{section.3}{Системный анализ виртуальной инфраструктуры}{}% 4
+\BOOKMARK [2][-]{subsection.3.1}{Принцип конечной цели}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.2}{Принцип единства}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.3}{Принцип связности}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.4}{Принцип модульности}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.5}{Принцип функциональности}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.6}{Принцип иерархии}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.7}{Принцип сочетания централизации и децентрализации}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.8}{Принцип развития}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.9}{Принцип учета случайностей}{section.3}% 13
+\BOOKMARK [1][-]{section.4}{Описание виртуальной инфраструктуры}{}% 14
+\BOOKMARK [2][-]{subsection.4.1}{Общая схема инфраструктуры}{section.4}% 15
+\BOOKMARK [2][-]{subsection.4.2}{Схема мониторинга}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.3}{Схема репликации и балансировки нагрузки DNS-серверов}{section.4}% 17
+\BOOKMARK [2][-]{subsection.4.4}{Используемые технологии виртуализации}{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.5}{Алгоритмы функционирования инфраструктуры}{section.4}% 19
+\BOOKMARK [3][-]{subsubsection.4.5.1}{Схема взаимодействия пользователя с инфраструктурой}{subsection.4.5}% 20
+\BOOKMARK [3][-]{subsubsection.4.5.2}{Алгоритм взаимодействия компонентов инфраструктуры}{subsection.4.5}% 21
+\BOOKMARK [1][-]{section.5}{Руководство администратора}{}% 22
+\BOOKMARK [2][-]{subsection.5.1}{Расположение серверов в сетевой инфраструктуре}{section.5}% 23
+\BOOKMARK [2][-]{subsection.5.2}{Сервер shared-хостинга}{section.5}% 24
+\BOOKMARK [2][-]{subsection.5.3}{Сервер виртуализации OpenVZ}{section.5}% 25
+\BOOKMARK [2][-]{subsection.5.4}{Сервер виртуализации KVM}{section.5}% 26
+\BOOKMARK [2][-]{subsection.5.5}{Дополнительные виртуальные сервера}{section.5}% 27
+\BOOKMARK [2][-]{subsection.5.6}{Защита от DDoS-атак}{section.5}% 28
+\BOOKMARK [2][-]{subsection.5.7}{Общие рекомендации по администрированию инфраструктуры}{section.5}% 29
+\BOOKMARK [1][-]{section.6}{Руководство пользователя}{}% 30
+\BOOKMARK [1][-]{section.7}{Результаты тестирования}{}% 31
+\BOOKMARK [2][-]{subsection.7.1}{Нагрузка сети во время резервного копирования}{section.7}% 32
+\BOOKMARK [2][-]{subsection.7.2}{Состояние сервера в период атаки на отказ}{section.7}% 33
+\BOOKMARK [2][-]{subsection.7.3}{Отказ одного из DNS-серверов}{section.7}% 34
+\BOOKMARK [1][-]{section.8}{Безопасность жизнедеятельности}{}% 35
+\BOOKMARK [2][-]{subsection.8.1}{Краткая характеристика помещения}{section.8}% 36
+\BOOKMARK [2][-]{subsection.8.2}{Микроклимат}{section.8}% 37
+\BOOKMARK [2][-]{subsection.8.3}{Освещение}{section.8}% 38
+\BOOKMARK [2][-]{subsection.8.4}{Шум и вибрация}{section.8}% 39
+\BOOKMARK [2][-]{subsection.8.5}{Пожаробезопасность}{section.8}% 40
+\BOOKMARK [2][-]{subsection.8.6}{Электробезопасность}{section.8}% 41
+\BOOKMARK [2][-]{subsection.8.7}{Эргономика и техническая эстетика}{section.8}% 42
+\BOOKMARK [2][-]{subsection.8.8}{Режим труда и отдыха}{section.8}% 43
+\BOOKMARK [2][-]{subsection.8.9}{Выводы}{section.8}% 44
+\BOOKMARK [1][-]{section*.27}{Заключение}{}% 45
+\BOOKMARK [1][-]{section*.28}{Библиографический список}{}% 46
+\BOOKMARK [1][-]{section*.29}{Приложение А}{}% 47
+\BOOKMARK [1][-]{section*.30}{Приложение Б}{}% 48

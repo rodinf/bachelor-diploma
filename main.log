@@ -1,0 +1,1424 @@
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.2.28)  28 FEB 2021 21:51
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14>
+(/usr/share/texlive/texmf-dist/tex/latex/extsizes/extarticle.cls
+Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/extsizes/size14.clo
+File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/exscale.sty
+Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+\big@size=\dimen134
+)
+\c@part=\count163
+\c@section=\count164
+\c@subsection=\count165
+\c@subsubsection=\count166
+\c@paragraph=\count167
+\c@subparagraph=\count168
+\c@figure=\count169
+\c@table=\count170
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen135
+) (./inc/preamble.tex (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspe
+c.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-02-14 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
+File: l3backend-xdvipdfmx.def 2020-02-03 L3 backend support: xdvipdfmx
+\g__graphics_track_int=\count171
+\l__pdf_internal_box=\box45
+\g__pdf_backend_object_int=\count172
+\g__pdf_backend_annotation_int=\count173
+))
+Package: xparse 2020-02-14 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count174
+\g__xparse_grabber_int=\count175
+\l__xparse_m_args_int=\count176
+\l__xparse_v_nesting_int=\count177
+)
+Package: fontspec 2020/02/03 v2.7h Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2020/02/03 v2.7h Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count178
+\l__fontspec_language_int=\count179
+\l__fontspec_strnum_int=\count180
+\l__fontspec_tmp_int=\count181
+\l__fontspec_tmpa_int=\count182
+\l__fontspec_tmpb_int=\count183
+\l__fontspec_tmpc_int=\count184
+\l__fontspec_em_int=\count185
+\l__fontspec_emdef_int=\count186
+\l__fontspec_strong_int=\count187
+\l__fontspec_strongdef_int=\count188
+\l__fontspec_tmpa_dim=\dimen136
+\l__fontspec_tmpb_dim=\dimen137
+\l__fontspec_tmpc_dim=\dimen138
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texlive/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
+other characters in Unicode lower plane
+
+(/usr/share/texmf/tex/latex/tipa/t3enc.def
+File: t3enc.def 2001/12/31 T3 encoding
+)
+\tipaTiiicode=\count189
+\tipasavetokens=\toks14
+\tipachecktokens=\toks15
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+))
+(/usr/share/texlive/texmf-dist/tex/xelatex/xltxtra/xltxtra.sty
+Package: xltxtra 2018/12/31 v0.7 Improvements for the "XeLaTeX" format
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+))
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/realscripts/realscripts.sty
+Package: realscripts 2016/02/13 v0.3d Access OpenType subscripts and superscrip
+ts
+\subsupersep=\dimen141
+)
+(/usr/share/texlive/texmf-dist/tex/latex/metalogo/metalogo.sty
+Package: metalogo 2010/05/29 v0.12 Extended TeX logo macros
+\xl@everylogo=\toks17
+\xl@@everylogo=\toks18
+LaTeX Info: Redefining \TeX on input line 193.
+LaTeX Info: Redefining \LaTeX on input line 202.
+LaTeX Info: Redefining \LaTeXe on input line 219.
+)
+\l__xetex_show_hyphens_wrapping_box=\box46
+\l__xetex_show_hyphens_temp_box=\box47
+\l__xetex_show_hyphens_final_box=\box48
+\g__xetex_show_hyphens_word_box=\box49
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count190
+\calc@Bcount=\count191
+\calc@Adimen=\dimen142
+\calc@Bdimen=\dimen143
+\calc@Askip=\skip49
+\calc@Bskip=\skip50
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count192
+\calc@Cskip=\skip51
+)
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+
+(/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen144
+\AM@pageheight=\dimen145
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/ppxetex.def
+File: ppxetex.def 2020/01/28 v0.5q Pdfpages driver for XeTeX (AM)
+)
+\AM@pagebox=\box50
+\AM@global@opts=\toks19
+\AM@pagecnt=\count193
+\AM@toc@title=\toks20
+\c@AM@survey=\count194
+\AM@templatesizebox=\box51
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count195
+\lst@gtempboxa=\box52
+\lst@token=\toks21
+\lst@length=\count196
+\lst@currlwidth=\dimen146
+\lst@column=\count197
+\lst@pos=\count198
+\lst@lostspace=\dimen147
+\lst@width=\dimen148
+\lst@newlines=\count199
+\lst@lineno=\count266
+\lst@maxwidth=\dimen149
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count267
+\lst@skipnumbers=\count268
+\lst@framebox=\box53
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/09/10 1.8c listings configuration
+))
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
+
+Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
+(fontspec)             New Roman' with options [Ligatures=TeX,Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/B/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/I/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/BI/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'TimesNewRoman(1)' created for font 'Times
+(fontspec)             New Roman' with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/B/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/I/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/BI/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'CourierNew(0)' created for font 'Courier
+(fontspec)             New' with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Courier
+(fontspec)             New/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Courier
+(fontspec)             New/B/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Courier
+(fontspec)             New/I/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Courier
+(fontspec)             New/BI/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'Courier(0)' created for font 'Courier'
+(fontspec)             with options
+(fontspec)             [Ligatures=TeX,WordSpace={1,0,0},HyphenChar=None,Punctua
+tionSpace=WordSpace].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"Courier/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"Courier/B/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"Courier/I/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"Courier/BI/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+Package: polyglossia 2020/01/29 v1.47 Modern multilingual typesetting with XeLa
+TeX and LuaLaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count269
+)
+(/usr/share/texlive/texmf-dist/tex/latex/makecmds/makecmds.sty
+Package: makecmds 2009/09/03 v1.0a extra command making commands
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks22
+\XKV@tempa@toks=\toks23
+)
+\XKV@depth=\count270
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2020-02-14 LaTeX2e option processing using LaTeX3 keys
+)
+(/usr/share/texlive/texmf-dist/tex/latex/filehook/filehook.sty
+Package: filehook 2020/02/03 v0.7 Hooks for input files
+)
+\xpg@normalclass=\XeTeXcharclass1
+
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf
+File: gloss-latex.ldf polyglossia: module for default language
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}.
+)
+Package polyglossia Info: Default language is latex.
+Package polyglossia Info: Option: localmarks.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-russian.ldf
+File: gloss-russian.ldf polyglossia: module for russian
+
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/xpg-cyrillicnumbers.sty
+Package: xpg-cyrillicnumbers 2019/11/15 v0.2 Formatting of Cyrillic alphabetic 
+numbers
+)
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {russian/script}  =>  {Cyrillic}
+>  {russian/lcscript}  =>  {cyrillic}
+>  {russian/scripttag}  =>  {cyrl}
+>  {russian/language}  =>  {Russian}
+>  {russian/langtag}  =>  {RUS}
+>  {russian/bcp47}  =>  {ru}
+>  {russian/hyphennames}  =>  {russian}
+>  {russian/direction}  =>  {LR}
+>  {russian/hyphenmins}  =>  {2,2}
+>  {russian/frenchspacing}  =>  {true}
+>  {russian/indentfirst}  =>  {true}
+>  {russian/fontsetup}  =>  {true}
+>  {russian/envname}  =>  {russian}
+>  {russian/babelname}  =>  {russian}
+>  {russian/localnumeral}  =>  {russiannumerals}
+>  {russian/Localnumeral}  =>  {Russiannumerals}.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/babelsh.def
+File: babelsh.def 2019/09/30 Babel common definitions for shorthands
+ Taken verbatim from babel files (2019/09/27 v3.34)
+)
+Package polyglossia Info: Making " an active character on input line 87.
+)
+Package polyglossia Info: Default language is russian.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks24
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks25
+\ex@=\dimen150
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen151
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count271
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count272
+\leftroot@=\count273
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count274
+\DOTSCASE@=\count275
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box54
+\strutbox@=\box55
+\big@size=\dimen152
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count276
+\c@MaxMatrixCols=\count277
+\dotsspace@=\muskip16
+\c@parentequation=\count278
+\dspbrk@lvl=\count279
+\tag@help=\toks26
+\row@=\count280
+\column@=\count281
+\maxfields@=\count282
+\andhelp@=\toks27
+\eqnshift@=\dimen153
+\alignsep@=\dimen154
+\tagshift@=\dimen155
+\tagwidth@=\dimen156
+\totwidth@=\dimen157
+\lineht@=\dimen158
+\@envbody=\toks28
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks29
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks30
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count283
+\float@exts=\toks31
+\float@box=\box56
+\@float@everytoks=\toks32
+\@floatcapt=\box57
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip55
+\multirow@cntb=\count284
+\multirow@dima=\skip56
+\bigstrutjot=\dimen159
+)
+(/usr/share/texlive/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+Package: chngcntr 2018/04/09 v1.1a change counter resetting
+Package chngcntr Info: \counterwithout already defined.
+(chngcntr)             Quitting chngcntr on input line 21.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen160
+\Hy@linkcounter=\count285
+\Hy@pagecounter=\count286
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count287
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count288
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen161
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count289
+\Field@Width=\dimen162
+\Fld@charsize=\dimen163
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+\Hy@abspage=\count290
+\c@Item=\count291
+\c@Hfootnote=\count292
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2020/01/14 v7.00d Hyperref driver for XeTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2020/01/14 v7.00d Hyperref: PDF Unicode definition (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box58
+\c@Hy@AnnotLevel=\count293
+\HyField@AnnotCount=\count294
+\Fld@listcount=\count295
+\c@bookmark@seq@number=\count296
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip57
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 52.
+
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-ascii-print.def
+File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
+
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count297
+\Gm@cntv=\count298
+\c@Gm@tempcnt=\count299
+\Gm@bindingoffset=\dimen164
+\Gm@wd@mp=\dimen165
+\Gm@odd@mp=\dimen166
+\Gm@even@mp=\dimen167
+\Gm@layoutwidth=\dimen168
+\Gm@layoutheight=\dimen169
+\Gm@layouthoffset=\dimen170
+\Gm@layoutvoffset=\dimen171
+\Gm@dimlist=\toks33
+)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip58
+\enit@outerparindent=\dimen172
+\enit@toks=\toks34
+\enit@inbox=\box59
+\enit@count@id=\count300
+\enitdp@description=\count301
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has section divisions on input line 51.
+\cftparskip=\skip59
+\cftbeforetoctitleskip=\skip60
+\cftaftertoctitleskip=\skip61
+\cftbeforepartskip=\skip62
+\cftpartnumwidth=\skip63
+\cftpartindent=\skip64
+\cftbeforesecskip=\skip65
+\cftsecindent=\skip66
+\cftsecnumwidth=\skip67
+\cftbeforesubsecskip=\skip68
+\cftsubsecindent=\skip69
+\cftsubsecnumwidth=\skip70
+\cftbeforesubsubsecskip=\skip71
+\cftsubsubsecindent=\skip72
+\cftsubsubsecnumwidth=\skip73
+\cftbeforeparaskip=\skip74
+\cftparaindent=\skip75
+\cftparanumwidth=\skip76
+\cftbeforesubparaskip=\skip77
+\cftsubparaindent=\skip78
+\cftsubparanumwidth=\skip79
+\cftbeforeloftitleskip=\skip80
+\cftafterloftitleskip=\skip81
+\cftbeforefigskip=\skip82
+\cftfigindent=\skip83
+\cftfignumwidth=\skip84
+\c@lofdepth=\count302
+\c@lotdepth=\count303
+\cftbeforelottitleskip=\skip85
+\cftafterlottitleskip=\skip86
+\cftbeforetabskip=\skip87
+\cfttabindent=\skip88
+\cfttabnumwidth=\skip89
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen173
+\captionmargin@=\dimen174
+\captionwidth=\dimen175
+\caption@tempdima=\dimen176
+\caption@indent=\dimen177
+\caption@parindent=\dimen178
+\caption@hangindent=\dimen179
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count304
+\c@continuedfloat=\count305
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box60
+\beforetitleunit=\skip90
+\aftertitleunit=\skip91
+\ttl@plus=\dimen180
+\ttl@minus=\dimen181
+\ttl@toksa=\toks35
+\titlewidth=\dimen182
+\titlewidthlast=\dimen183
+\titlewidthfirst=\dimen184
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen185
+\ar@mcellbox=\box61
+\extrarowheight=\dimen186
+\NC@list=\toks36
+\extratabsurround=\skip92
+\backup@length=\skip93
+\ar@cellbox=\box62
+)
+\TX@col@width=\dimen187
+\TX@old@table=\dimen188
+\TX@old@col=\dimen189
+\TX@target=\dimen190
+\TX@delta=\dimen191
+\TX@cols=\count306
+\TX@ftn=\toks37
+)
+(/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen192
+\c@nlinenum=\count307
+\TeXr@lab=\toks38
+) (./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
+1.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 11.
+LaTeX Font Info:    Trying to load font information for T3+cmr on input line 11
+.
+
+(/usr/share/texmf/tex/latex/tipa/t3cmr.fd
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 11.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 11.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 11.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 11.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 11.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 11.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 11.
+LaTeX Font Info:    Redeclaring math accent \check on input line 11.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 11.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 11.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 11.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 11.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 11.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 1
+1.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 11.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
+11.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
+input line 11.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
+ 11.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
+11.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 11.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/Courier(0)/m/n on input line 11.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on 
+input line 11.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input lin
+e 11.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 11.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/Courier(0)/b/n on input line 11.
+\AtBeginShipoutBox=\box63
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
+
+)
+\c@lstlisting=\count308
+Package hyperref Info: Link coloring ON on input line 11.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count309
+)
+LaTeX Info: Redefining \ref on input line 11.
+LaTeX Info: Redefining \pageref on input line 11.
+LaTeX Info: Redefining \nameref on input line 11.
+
+(./main.out) (./main.out)
+\@outlinefile=\write3
+\openout3 = `main.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 483.69687pt, 28.45274pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-54.36449pt
+* \headheight=14.0pt
+* \headsep=25.0pt
+* \topskip=14.0pt
+* \footskip=30.0pt
+* \marginparwidth=15.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+[4
+
+] (./main.toc [5])
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ [6] (./inc/0-intro.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 1.
+
+[7
+
+]) (./inc/1-pz.tex
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+[]\TU/TimesNewRoman(1)/m/n/14.4 возможность удаленного доступа к серверам посре
+дством IPMI
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 26--28
+[]\TU/TimesNewRoman(1)/m/n/14.4 Следует предусмотреть возможность развертывания
+ дополнительных
+ []
+
+[8
+
+] [9]) (./inc/2-literature.tex [10
+
+]
+Underfull \hbox (badness 2189) in paragraph at lines 25--28
+[]\TU/TimesNewRoman(1)/m/n/14.4 Дата-центр, иначе именуемый центром обработки д
+анных, является
+ []
+
+
+Underfull \hbox (badness 2932) in paragraph at lines 25--28
+\TU/TimesNewRoman(1)/m/n/14.4 оборудование, подключаемое абонентов к сети Интер
+нет. Основное тре-
+ []
+
+[11] [12] [13] [14]
+File: images/emulation.pdf Graphic file (type pdf)
+<use images/emulation.pdf>
+ [15] [16]
+Underfull \hbox (badness 1163) in paragraph at lines 143--147
+\TU/TimesNewRoman(1)/m/n/14.4 портов, многочисленных звуковых плат и контроллер
+а PCI Universal Host
+ []
+
+File: images/full_virt.pdf Graphic file (type pdf)
+<use images/full_virt.pdf>
+
+Underfull \hbox (badness 4156) in paragraph at lines 154--157
+[]\TU/TimesNewRoman(1)/m/n/14.4 Полная виртуализация возможна исключительно при
+ условии пра-
+ []
+
+[17] [18]
+File: images/paravirt.pdf Graphic file (type pdf)
+<use images/paravirt.pdf>
+ [19] [20]
+File: images/cont_virt.pdf Graphic file (type pdf)
+<use images/cont_virt.pdf>
+ [21] [22] [23] [24] [25]
+Underfull \hbox (badness 1577) in paragraph at lines 303--305
+\TU/TimesNewRoman(1)/m/n/14.4 фраструктуры, виртуализация позволяет объединить 
+ряд серверов, инфра-
+ []
+
+[26] [27]) (./inc/3-analyze.tex
+Underfull \hbox (badness 1087) in paragraph at lines 13--17
+\TU/TimesNewRoman(1)/m/n/14.4 Конечная цель имеет абсолютный приоритет, в систе
+ме все должно быть
+ []
+
+[28
+
+]
+File: images/subsys.pdf Graphic file (type pdf)
+<use images/subsys.pdf>
+ [29]
+File: images/user-subsys.pdf Graphic file (type pdf)
+<use images/user-subsys.pdf>
+File: images/service-subsys.pdf Graphic file (type pdf)
+<use images/service-subsys.pdf>
+File: images/infrast-subsys.pdf Graphic file (type pdf)
+<use images/infrast-subsys.pdf>
+File: images/security-subsys.pdf Graphic file (type pdf)
+<use images/security-subsys.pdf>
+ [30] [31]
+File: images/modules.pdf Graphic file (type pdf)
+<use images/modules.pdf>
+ [32] [33]
+File: images/hierarchy-princ.pdf Graphic file (type pdf)
+<use images/hierarchy-princ.pdf>
+ [34] [35] [36] [37]) (./inc/4-description.tex
+File: images/infrastructure/infrast-scheme.pdf Graphic file (type pdf)
+<use images/infrastructure/infrast-scheme.pdf>
+
+[38
+
+]
+File: images/infrastructure/nagios-munin-scheme.pdf Graphic file (type pdf)
+<use images/infrastructure/nagios-munin-scheme.pdf>
+ [39]
+File: images/infrastructure/dns-scheme.pdf Graphic file (type pdf)
+<use images/infrastructure/dns-scheme.pdf>
+ [40] [41] [42] [43] [44]) (./inc/5-adminguide.tex [45
+
+]
+Underfull \hbox (badness 1454) in paragraph at lines 48--51
+\TU/TimesNewRoman(1)/m/n/14.4 Exim Internet Mailer, а запросы по протоколам POP
+3 и IMAP принимает
+ []
+
+[46] [47] [48] [49] [50] [51] [52] [53] [54]
+Underfull \hbox (badness 1596) in paragraph at lines 400--402
+[]\TU/TimesNewRoman(1)/m/n/14.4 Подключение модуля TUN для контейнера (необходи
+мо для работы
+ []
+
+[55] [56] [57] [58]
+Underfull \hbox (badness 1331) in paragraph at lines 592--595
+[]\TU/TimesNewRoman(1)/m/n/14.4 Намеренную DDoS-атаку сложно остановить лишь с 
+помощью про-
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 592--595
+\TU/TimesNewRoman(1)/m/n/14.4 небольшие «любительские» атаки на отказ. Подобный
+ скрипт блокировки
+ []
+
+[59] [60] [61]) (./inc/6-userguide.tex [62
+
+]) (./inc/7-testing.tex
+File: images/testing/nagios-ok.png Graphic file (type bmp)
+<images/testing/nagios-ok.png>
+File: images/testing/nagios-nok.jpg Graphic file (type bmp)
+<images/testing/nagios-nok.jpg>
+ [63
+
+]
+File: images/testing/nagios-raid-error.jpg Graphic file (type bmp)
+<images/testing/nagios-raid-error.jpg>
+ [64]
+File: images/testing/top-ok.png Graphic file (type bmp)
+<images/testing/top-ok.png>
+File: images/testing/munin-backup.png Graphic file (type bmp)
+<images/testing/munin-backup.png>
+
+[65]
+File: images/testing/munin-la.jpg Graphic file (type bmp)
+<images/testing/munin-la.jpg>
+ [66]
+File: images/testing/htop-ddos.jpg Graphic file (type bmp)
+<images/testing/htop-ddos.jpg>
+File: images/testing/munin-ddos.png Graphic file (type bmp)
+<images/testing/munin-ddos.png>
+ [67]
+File: images/testing/dns-nok.png Graphic file (type bmp)
+<images/testing/dns-nok.png>
+ [68] [69]) (./inc/8-lifesafety.tex
+File: images/roomplan.pdf Graphic file (type pdf)
+<use images/roomplan.pdf>
+ [70
+
+] [71]
+Underfull \hbox (badness 4060) in paragraph at lines 44--46
+[]\TU/TimesNewRoman(1)/m/n/14.4 Мероприятия, за счет которых выполняются требов
+ания норм СП
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 55--56
+[]\TU/TimesNewRoman(1)/m/n/14.4 непосредственно персональный компьютер (вентиля
+торы охлаждения
+ []
+
+[72] [73]
+Underfull \hbox (badness 2503) in paragraph at lines 97--99
+[]\TU/TimesNewRoman(1)/m/n/14.4 Для предотвращения поражения электрическим токо
+м потребителей
+ []
+
+[74] [75] [76]) (./inc/0-conclusion.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 1.
+
+[77
+
+]) (./inc/0-bibliography.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 3.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--11
+[]\TU/TimesNewRoman(1)/m/n/14.4 Каталог программных продуктов семейства Oracle
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--11
+\TU/TimesNewRoman(1)/m/n/14.4 Database [Электронный ресурс] // Oracle Россия UR
+L:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--11
+\TU/TimesNewRoman(1)/m/n/14.4 http://oracle.ocs.ru/files/catalog_Oracle_Databas
+e_12C.pdf (дата обращения:
+ []
+
+
+Underfull \hbox (badness 3758) in paragraph at lines 20--26
+[]\TU/TimesNewRoman(1)/m/n/14.4 Джонс Т.М. Виртуальный Linux. Обзор методов вир
+туализации,
+ []
+
+
+Underfull \hbox (badness 3601) in paragraph at lines 20--26
+\TU/TimesNewRoman(1)/m/n/14.4 архитектур и реализаций [Электронный ресурс] // I
+BM developerWorks
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--26
+\TU/TimesNewRoman(1)/m/n/14.4 Россия: Ресурс IBM для разработчиков и IT професс
+ионалов URL:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--26
+\TU/TimesNewRoman(1)/m/n/14.4 http://www.ibm.com/developerworks/ru/library/l-li
+nuxvirt/index.html (дата
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--34
+[]\TU/TimesNewRoman(1)/m/n/14.4 Умеров А.Р. Руководство по созданию и управлени
+ю
+ []
+
+
+Underfull \hbox (badness 5105) in paragraph at lines 28--34
+\TU/TimesNewRoman(1)/m/n/14.4 контейнерами на базе OpenVZ [Электронный ресурс] 
+// GitHub URL:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--34
+\TU/TimesNewRoman(1)/m/n/14.4 https://github.com/Amet13/openvz-tutorial/blob/ma
+ster/main.pdf (дата
+ []
+
+
+Underfull \hbox (badness 4353) in paragraph at lines 44--50
+[]\TU/TimesNewRoman(1)/m/n/14.4 Толети Б.П. Гипервизоры, виртуализация и облако
+: Анализ ги-
+ []
+
+
+Underfull \hbox (badness 4886) in paragraph at lines 44--50
+\TU/TimesNewRoman(1)/m/n/14.4 первизора KVM [Электронный ресурс] // IBM develop
+erWorks Россия:
+ []
+
+
+Underfull \hbox (badness 4940) in paragraph at lines 44--50
+\TU/TimesNewRoman(1)/m/n/14.4 Ресурс IBM для разработчиков и IT профессионалов 
+Режим доступа:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--66
+[]\TU/TimesNewRoman(1)/m/n/14.4 Одинцов П. Контейнеризация на Linux в деталях –
+ LXC
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--66
+\TU/TimesNewRoman(1)/m/n/14.4 и OpenVZ Часть 2 [Электронный ресурс] // Хабрахаб
+р URL:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--66
+\TU/TimesNewRoman(1)/m/n/14.4 http://habrahabr.ru/company/FastVPS/blog/209084/ 
+(дата обращения:
+ []
+
+[78
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 75--80
+[]\TU/TimesNewRoman(1)/m/n/14.4 Основы виртуализации. Инфраструктура [Электронн
+ый ресурс]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--80
+\TU/TimesNewRoman(1)/m/n/14.4 // BW-IT.RU | Информационные технологии URL: http
+://www.bw-
+ []
+
+
+Underfull \hbox (badness 3872) in paragraph at lines 101--108
+[]\TU/TimesNewRoman(1)/m/n/14.4 Методические указания для выполнения раздела «О
+храна труда
+ []
+
+
+Underfull \hbox (badness 2318) in paragraph at lines 101--108
+\TU/TimesNewRoman(1)/m/n/14.4 и окружающей среды» в дипломних проектах специаль
+ностей 7.080401
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 101--108
+\TU/TimesNewRoman(1)/m/n/14.4 — «Информационные и управляющие системы и техноло
+гии», 7.092502
+ []
+
+[79]) (./inc/a-app.tex [80
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 7.
+
+(./inc/ddos-deflate/ddos.conf) (./inc/ddos-deflate/ddos.sh [81
+
+] [82] [83]
+[84]) (./inc/ddos-deflate/ignore.ip.list) (./inc/ddos-deflate/install.sh
+[85]) (./inc/ddos-deflate/uninstall.sh) (./inc/ddos-deflate/README.md [86])
+[87]) (./inc/b-app.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 1.
+
+File: images/userguide/1-welcome.png Graphic file (type bmp)
+<images/userguide/1-welcome.png>
+File: images/userguide/2-order.png Graphic file (type bmp)
+<images/userguide/2-order.png>
+File: images/userguide/3-registration.png Graphic file (type bmp)
+<images/userguide/3-registration.png>
+[88
+
+]
+File: images/userguide/4-order-service.png Graphic file (type bmp)
+<images/userguide/4-order-service.png>
+File: images/userguide/5-bill-services.png Graphic file (type bmp)
+<images/userguide/5-bill-services.png>
+ [89]
+File: images/userguide/6-basket.png Graphic file (type bmp)
+<images/userguide/6-basket.png>
+File: images/userguide/7-orderlist.png Graphic file (type bmp)
+<images/userguide/7-orderlist.png>
+File: images/userguide/8-costs.png Graphic file (type bmp)
+<images/userguide/8-costs.png>
+ [90]
+File: images/userguide/9-hosting-user.png Graphic file (type bmp)
+<images/userguide/9-hosting-user.png>
+File: images/userguide/10-hosting-filemgr.png Graphic file (type bmp)
+<images/userguide/10-hosting-filemgr.png>
+ [91]
+File: images/userguide/11-hosting-ftp.png Graphic file (type bmp)
+<images/userguide/11-hosting-ftp.png>
+File: images/userguide/12-hosting-webscripts.png Graphic file (type bmp)
+<images/userguide/12-hosting-webscripts.png>
+ [92]
+File: images/userguide/13-hosting-www.png Graphic file (type bmp)
+<images/userguide/13-hosting-www.png>
+File: images/userguide/14-hosting-backup.png Graphic file (type bmp)
+<images/userguide/14-hosting-backup.png>
+File: images/userguide/15-hosting-mail.png Graphic file (type bmp)
+<images/userguide/15-hosting-mail.png>
+ [93]
+File: images/userguide/16-ovz-containers.png Graphic file (type bmp)
+<images/userguide/16-ovz-containers.png>
+File: images/userguide/17-ovz-plots.png Graphic file (type bmp)
+<images/userguide/17-ovz-plots.png>
+File: images/userguide/18-ovz-journal.png Graphic file (type bmp)
+<images/userguide/18-ovz-journal.png>
+ [94]
+File: images/userguide/19-kvm-vm.png Graphic file (type bmp)
+<images/userguide/19-kvm-vm.png>
+File: images/userguide/20-kvm-isos.png Graphic file (type bmp)
+<images/userguide/20-kvm-isos.png>
+File: images/userguide/21-bill-request.png Graphic file (type bmp)
+<images/userguide/21-bill-request.png>
+ [95]
+File: images/userguide/22-wiki.png Graphic file (type bmp)
+<images/userguide/22-wiki.png>
+ [96]
+File: images/userguide/23-wiki-question.png Graphic file (type bmp)
+<images/userguide/23-wiki-question.png>
+ [97])
+File: extra/act.pdf Graphic file (type pdf)
+<use extra/act.pdf>
+File: extra/act.pdf Graphic file (type pdf)
+<use extra/act.pdf>
+File: extra/act.pdf Graphic file (type pdf)
+<use extra/act.pdf, page 1>
+File: extra/act.pdf Graphic file (type pdf)
+<use extra/act.pdf, page 1>
+File: extra/act.pdf Graphic file (type pdf)
+<use extra/act.pdf, page 1>
+File: extra/act.pdf Graphic file (type pdf)
+<use extra/act.pdf, page 1>
+File: extra/act.pdf Graphic file (type pdf)
+<use extra/act.pdf, page 1>
+ [98
+
+]
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {russian/script}  =>  {Cyrillic}
+>  {russian/lcscript}  =>  {cyrillic}
+>  {russian/scripttag}  =>  {cyrl}
+>  {russian/language}  =>  {Russian}
+>  {russian/langtag}  =>  {RUS}
+>  {russian/bcp47}  =>  {ru}
+>  {russian/hyphennames}  =>  {russian}
+>  {russian/direction}  =>  {LR}
+>  {russian/hyphenmins}  =>  {2,2}
+>  {russian/frenchspacing}  =>  {true}
+>  {russian/indentfirst}  =>  {false}
+>  {russian/fontsetup}  =>  {true}
+>  {russian/envname}  =>  {russian}
+>  {russian/babelname}  =>  {russian}
+>  {russian/localnumeral}  =>  {russiannumerals}
+>  {russian/Localnumeral}  =>  {Russiannumerals}.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 78.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 78.
+ (./main.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 78.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 78.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 632DFE762E4F096B4C14F88F42570F2A;4730.
+ ) 
+Here is how much of TeX's memory you used:
+ 22651 strings out of 479819
+ 404733 string characters out of 5895846
+ 811001 words of memory out of 5000000
+ 39307 multiletter control sequences out of 15000+600000
+ 540286 words of font info for 97 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 60i,18n,98p,867b,1807s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on main.pdf (95 pages).

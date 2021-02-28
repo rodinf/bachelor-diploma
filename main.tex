@@ -2,8 +2,63 @@
 
 % Author: Amet Umerov (admin@amet13.name)
 % https://github.com/Amet13/bachelor-diploma
+% Tuned for MAI by Rodin Fedor
 
-\documentclass[a4paper,14pt]{extarticle} % 14й шрифт
+% НАСТРОЙКИ ФОРМАТИРОВАНИЯ
+
+\def \EmptyPageAfterTitle {}			% закомментировать, если не нужна пустая страница после титульной
+\def \TwoSided {}						% если не закомментировано, то поля слева и справа будут чередоваться, нужно для двухсторонней печати. Если предполагается односторонняя печать, закомментируйте.
+
+% НАСТРОЙКИ ИМЕН, УЧЕНЫХ СТЕПЕНЕЙ И Т.П.
+
+\newcommand{\StudentFioLastname}{Родин}					% фамилия студента
+\newcommand{\StudentFioFirstname}{Федор}				% имя студента
+\newcommand{\StudentFioSurname}{Михайлович}				% отчество студента
+
+\newcommand{\StudentKurs}{1}							% курс обучения студента
+\newcommand{\StudentGroup}{М3О-121Б-20}					% группа студента
+
+\newcommand{\PrepodFioLastname}{Гридин}					% фамилия преподавателя
+\newcommand{\PrepodFioFirstname}{Александр}				% имя преподавателя
+\newcommand{\PrepodFioSurname}{Николаевич}				% отчество преподавателя
+
+\newcommand{\PrepodCaptionFirst}{преподаватель, }		% первая строчка ученой степени преподавателя
+\newcommand{\PrepodCaptionSecond}{доцент, к. т. н.}		% вторая строчка ученой степени преподавателя
+
+
+% НАСТРОЙКИ НАЗВАНИЙ РАБОТЫ
+
+% тип работы (отчет, курсовая работа и т.д.)
+\newcommand{\RabotaType}{ОТЧЕТ}
+
+% о чем? (строчка после типа работы)
+\newcommand{\RabotaOChem}{о выполнении задания по предмету «Дискретная математика»}
+
+% тема или название работы
+\newcommand{\RabotaThemeName}{«Новые учебно-­методические пособия по дискретной математике и онлайн-­калькуляторы диофантовых уравнений»}
+
+
+% НАСТРОЙКИ ИНСТИТУТА И КАФЕДРЫ
+
+% номер института
+\newcommand{\InstitutNumber}{3}
+
+% название института без кавычек
+\newcommand{\InstitutName}{Системы управления, информатика и электроэнергетика}
+
+% номер кафедры
+\newcommand{\KafedraNumber}{307}
+
+% название кафедры без кавычек
+\newcommand{\KafedraName}{Цифровые технологии и информационные системы}
+
+
+\ifx \TwoSided \undefined
+	\documentclass[a4paper,titlepage,14pt]{extarticle}
+\else
+	\documentclass[a4paper,twoside,titlepage,14pt]{extarticle}
+\fi
+
 \input{inc/preamble} % Подключаем преамбулу
 \usepackage{tabularx}
 \usepackage{makecell}
@@ -15,6 +70,7 @@
 %помимо ПЗ и задания, в диплом также вкладывается отзыв руководителя и рецензия
 
 % НАЧАЛО ТИТУЛЬНОГО ЛИСТА
+\begin{titlepage}
 \begin{center}
 	
 	\linespread{1.5}
@@ -26,32 +82,42 @@
 	\normalsize\textbf{«МОСКОВСКИЙ АВИАЦИОННЫЙ ИНСТИТУТ»}\\ {(НАЦИОНАЛЬНЫЙ ИССЛЕДОВАТЕЛЬСКИЙ УНИВЕРСИТЕТ)}\\
 	\noindent\rule{\textwidth}{0.4pt} \\ \vspace{0.25cm}
 	\normalsize
-	{Институт № 3 «Системы управления, информатика и электроэнергетика»\\ Кафедра 307 «Цифровые технологии и информационные системы»}\\
+	{Институт № \InstitutNumber \ «\InstitutName»\\ Кафедра \KafedraNumber \ «\KafedraName»}\\
 	\vfill
 	
-	{ОТЧЕТ}\\
-	{о выполнении задания по предмету «Дискретная математика»}\\
+	{\RabotaType}\\
+	{\RabotaOChem}\\
 	\hfill\break	
-	{«Новые учебно-методические пособия по дискретной математике и онлайн-калькуляторы диофантовых уравнений»}\\
+	{\RabotaThemeName}\\
 	
 	\vfill
 	
 	\begin{tabularx}{0.95\textwidth}{ l X l l }
 		
-		Выполнил & \makecell[c]{\underline{\hspace{3cm}}} & \makecell[l]{студент 1 курса \\ группа М3О-121Б-20} & \makecell[r]{Родин Федор \\ Михайлович} \\
+		Выполнил & \makecell[c]{\underline{\hspace{3cm}}} & \makecell[l]{студент \StudentKurs \ курса \\ группа \StudentGroup} & \makecell[r]{\StudentFioLastname \ \StudentFioFirstname \\ \StudentFioSurname} \\
 		
 		\multicolumn{4}{ c }{ } \\
 		
-		Проверил & \makecell[c]{\underline{\hspace{3cm}}} & \makecell[l]{преподаватель, \\ доцент, к. т. н.} & \makecell[r]{Гридин Александр \\ Николаевич} \\
+		Проверил & \makecell[c]{\underline{\hspace{3cm}}} & \makecell[l]{\PrepodCaptionFirst \\ \PrepodCaptionSecond} & \makecell[r]{\PrepodFioLastname \ \PrepodFioFirstname \\ \PrepodFioSurname} \\
 		
 	\end{tabularx}
 
 \end{center}
 \hfill \break
-\begin{center} Москва 2021 \end{center}
+\begin{center} Москва \the\year{} \end{center}
 \thispagestyle{empty} % выключаем отображение номера для этой страницы
+\end{titlepage}
 
-\newpage
+\ifx \EmptyPageAfterTitle \undefined
+\else
+	\newpage
+	\thispagestyle{empty}
+	\mbox{}
+	\newpage
+\fi
+
+%\newpagel
+
 % КОНЕЦ ТИТУЛЬНОГО ЛИСТА
 
 \tableofcontents % Содержание 
